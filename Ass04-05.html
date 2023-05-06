@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <div style="display: flex; flex-direction: column;border: 1px solid red;">
+    <!-- <div style="display: flex; flex-direction: column;border: 1px solid red;">
         <input type="checkbox" />
         <input type="radio" />
     </div>
@@ -30,7 +30,84 @@
             </select><br/>
             <input type="submit" value="Login" />
         </fieldset>
+    </form> -->
+
+    <h2>Registration</h2>
+    <form>
+        <fieldset style="width:300px;">
+            <legend>Personal Details</legend>
+            <table>
+                <tr>
+                    <td><label>Full Name:</label></td>
+                    <td><label>Father's Name:</label></td>
+                    <td><label>Mother's Name:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="Name" placeholder="Enter your Name" /> </td>
+                    <td><input type="Name" placeholder="Enter your Father's Name" /> </td>
+                    <td><input type="Name" placeholder="Enter your Mother's Name" /> </td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth:</label></td>
+                    <td><label>Aadhar Number:</label></td>
+                    <td><label>Email ID:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="Date" placeholder="Enter DOB" /> </td>
+                    <td><input type="Number" placeholder="Enter your Aadhar Number" /> </td>
+                    <td><input type="Email" placeholder="Enter your Email ID" /> </td>
+                </tr>
+
+            </table>
+        </fieldset>
+        <fieldset style="width:300px;">
+            <legend>Other Details</legend>
+            <table>
+                <tr>
+                    <td><label>Stream:</label></td>
+                    <td><label>Previous Class:</label></td>
+                    <td><label>Hobbies:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter your Stream" /> </td>
+                    <td><input type="text" placeholder="Enter your Previous Class" /> </td>
+                    <td><input type="text" placeholder="Enter your Hobbies" /> </td>
+                </tr>
+                <tr>
+                    <td><label>Account Number:</label></td>
+                    <td><label>Religion:</label></td>
+                    <td><label>Category:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="Enter Account Number" /> </td>
+                    <td>
+                        <select>
+                            <option>Enter your Religion</option>
+                            <option>Hindu</option>
+                            <option>Buddhist</option>
+                            <option>Islamic</option>
+                            <option>Christian</option>
+                            <option>Jew</option>
+                        </select>
+                    </td>
+                    <!-- <td><input type="text" placeholder="Enter your Religion" /> </td> -->
+                    <td>
+                        <select>
+                            <option>Enter your Category</option>
+                            <option>Open</option>
+                            <option>SC</option>
+                            <option>ST</option>
+                            <option>OBC</option>
+                            <option>EWS</option>
+                        </select>
+                    </td>
+                    <!-- <td><input type="text" placeholder="Enter your Category" /> </td> -->
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit"/>
     </form>
+
 </body>
 
 </html>
