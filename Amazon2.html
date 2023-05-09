@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/c888f1e752.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <style>
+        #screen {
+            width: 100%;
+            height: 600px;
+            border: 2px solid blue;
+        }
+
+        #navbar {
+            width: 100%;
+            Height: 65px;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(17, 21, 39);
+            color: white;
+        }
+
+        #logo {
+            width: 10%;
+            height: 65px;
+            /* border: 2px solid red; */
+
+        }
+
+        #add {
+            width: 15%;
+            height: 65px;
+            /* border: 2px solid red; */
+            display: flex;
+            text-align: left;
+            align-items: center;
+        }
+
+        #search {
+            width: 40%;
+            height: 65px;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+        }
+
+        #lang {
+            width: 5%;
+            height: 65px;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+        }
+
+        #acc {
+            width: 25%;
+            height: 65px;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #contentbar {
+            width: 100%;
+            height: 60px;
+            border: 2px solid greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div id="logo">
+                <img src="./Amazonlogo.png" style="height:60px; width: 150px;" />
+            </div>
+            <div id="add">
+                <div>
+                    <span style="margin: 10px;">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+                </div>
+                <div>
+                    <div> Hello</div>
+                    <div style="font-size: larger;">Select your adress</div>
+                </div>
+            </div>
+            <div id="search">
+                <div>
+                    <select style="border: none; outline: none; background-color: white; width: 40px; height: 37px; font-size: large;">
+                        <option>All</option>
+                        <option>All</option>
+                        <option>All</option>
+                        <option>All</option>
+                        <option>All</option>
+                    </select>
+                </div>
+                <div>
+                    <input style="border: none; outline: none; background-color: white; width: 527px; height: 35px; font-size: large;"
+                        placeholder="Search Amazon.in" />
+                </div>
+                <div>
+                    <button style="border: none; outline: none; height: 38px; width:38px;background-color: orange;">
+                        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="lang">
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png" style="height: 20px; width: 30px;"/>
+                </div>
+                <div style="margin: auto;">
+                    EN
+                </div>
+            </div>
+            <div id="acc">
+                <div>
+                    <div>Hello,sign in</div>
+                    <div style="font-size: larger;">Accounts & Lists</div>
+                </div>
+                <div>
+                    <div>Returns</div>
+                    <div style="font-size: larger;">& Orders</div>
+                </div>
+                <div style="display:flex; flex-direction: row; align-items: center;">
+                    <div>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                        </span>
+                    </div>
+                    <div style="font-size: larger;">Cart</div>
+                </div>
+            </div>
+        </div>
+        <div id="contentbar">bar</div>
+        <div id="boby">Body</div>
+    </div>
+</body>
+
+</html>
