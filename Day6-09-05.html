@@ -1,15 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Resume</title>
+    <style>
+        #screen{
+            width: 100%;
+            height: 1200px;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(150, 179, 239);
+            color: white;
+
+        }
+        #left{
+            width: 20%;
+            height: 100%;
+            border: 1px solid black;
+            background-color: rgb(0, 83, 166);
+         
+            
+        }
+
+        .samestyleforleftdiv{
+            width: 100%;
+            height: 25%;
+            /* border: 1px solid black; */
+        }
+
+        .margin-top-bottom-zero{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .margin-left{
+            margin-left: 20px;
+        }
+        
+       #profile{
+        text-align: center;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+       }
+
+       #techstack{
+        letter-spacing: 1px;
+        margin-top: 80px;
+        letter-spacing: 1px;
+       }
+
+       #skills{
+        width: 100%;
+        height: 16%;
+        /* border: 1px solid black; */
+        word-spacing: 5px;
+        letter-spacing: 2px;
+
+       }
+       #hobbies{
+        letter-spacing: 2px;
+        width: 100%;
+        height: 12%;
+        /* border: 1px solid black; */
+
+       }
+       #right{
+        width: 73%;
+        height: 100%;
+        border: 1px solid black;
+        background-color: rgb(0, 83, 166);
+       }
+    </style>
 </head>
+
 <body>
-    <div>
-        <div></div>
-        <div></div>
+    <div id="screen">
+        <div id="left">
+            <div id="profile" class="samestyleforleftdiv">
+                <div style="width: 70%; height: 70%;margin: auto;">
+                    <img src="./profilephoto.png" style="width: 100%; height: 100%;" />
+                </div>
+                <h2 class="margin-top-bottom-zero">Pooja Vetal</h2>
+                <h4 class="margin-top-bottom-zero">9930210743</h4>
+                <h4 class="margin-top-bottom-zero">poojavetal14@gmail.com</h4>
+            </div>
+            <div id="techstack" class="samestyleforleftdiv">
+                <h2 class="margin-left">Frontend Technologies :</h2>
+                <ul class="margin-left">
+                    <li>React</li>
+                    <li>HTMl</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+                <h2 class="margin-left">Backend Tecchnologies :</h2>
+                <ul class="margin-left">
+                    <li>Nodejs</li>
+                    <li>Express</li>
+                    <li>Mongodb</li>
+                </ul>
+            </div>
+            <div id="skills">
+                <h2 class="margin-left">Skills :</h2>
+                <ul class="margin-left">
+                    <li>Team Member</li>
+                    <li>Fast Learner</li>
+                    <li>Time Management</li>
+                    <li>Flexible about time</li>
+                    <li>Leadership</li>
+                    <li>Problem solver</li>
+                
+                </ul>
+            </div>
+            <div id="hobbies">
+                <h2 class="margin-left">Hobbies :</h2>
+                <ul class="margin-left">
+                    <li>Reading Books</li>
+                    <li>Exploring New Things</li>
+                    <li>Teaching</li>
+                </ul>
+            </div>
+        </div>
+        <div id="right">right</div>
     </div>
 </body>
+
 </html>
