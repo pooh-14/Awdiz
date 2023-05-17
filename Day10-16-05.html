@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent {
+            width: 100%;
+            border: 5px solid red;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            background-color: blueviolet;
+        }
+
+        #parent>div {
+            width: 30%;
+            height: 200px;
+            border: 5px solid blue;
+            background-color: violet;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #parent>div:nth-child(1)>div {
+            width: 20%;
+            border: 3px solid pink;
+            background-color: rgb(235, 59, 88);
+        }
+
+        #parent>div:nth-child(2)>div {
+            width: 20%;
+            border: 3px solid lightblue;
+            background-color: rgb(122, 168, 183)
+        }
+
+        #parent>div:nth-child(3)>div {
+            width: 20%;
+            border: 3px solid lightgreen;
+            background-color: rgb(106, 180, 106);
+        }
+
+        @media screen and (max-width:400px) {
+            #parent {
+                border: 5px solid brown;
+                background-color: orangered;
+                flex-direction: column;
+            }
+
+            #parent>div {
+                width: 70%;
+                border: 5px solid olivedrab;
+                background-color: orange;
+                margin: auto;
+                margin-bottom: 10px;
+                flex-direction: column;
+            }
+
+            #parent>div:nth-child(1)>div {
+                width: 60%;
+                border: 3px solid lightseagreen;
+                background-color: rgb(176, 209, 207);
+                margin: auto;
+            }
+
+            #parent>div:nth-child(2)>div{
+            width: 60%;
+            border: 3px solid rgb(247, 247, 44);
+            background-color: rgb(245, 245, 99);
+            margin: auto;
+        }
+
+        #parent>div:nth-child(3)>div{
+            width: 60%;
+            border: 3px solid lawngreen;
+            background-color: rgb(172, 243, 101);
+            margin: auto;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div>
+            <div>X</div>
+            <div>Y</div>
+            <div>Z</div>
+        </div>
+        <div>
+            <div>X</div>
+            <div>Y</div>
+            <div>Z</div>
+        </div>
+        <div>
+            <div>X</div>
+            <div>Y</div>
+            <div>Z</div>
+        </div>
+    </div>
+</body>
+
+</html>
