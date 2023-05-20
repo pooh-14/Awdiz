@@ -70,13 +70,59 @@
             height: 60px;
             border: 2px solid greenyellow;
         }
+
+        @media screen and (max-width:500px){
+            #screen{
+                width:100%;
+                height: 600px;
+                border: 2px solid black;
+            }
+
+            #navbar{
+                width: 100%;
+                height: 65px;
+                background-color: rgb(17, 21, 39);
+            }
+
+            #logo>img{
+                width: 90px;
+                height: 50px;
+                
+            }
+            #add{
+               display: none;
+            }
+
+            #search>div:nth-child(1){
+                display: none;
+            }
+
+            #search>div:nth-child(2)>button{
+                width: 200px;
+                margin-right: 10px;
+                
+                
+            }
+
+            #acc>div:nth-child(1){
+                display: none;
+            }
+
+            #acc>div:nth-child(2){
+                display: none;
+            }
+
+            #lang{
+                display: none;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div id="screen">
         <div id="navbar">
-            <div id="logo">
+            <div id="logo" style="height:60px; width: 150px;">
                 <img src="./Amazonlogo.png" style="height:60px; width: 150px;" />
             </div>
             <div id="add">
@@ -100,8 +146,8 @@
                         <option>All</option>
                     </select>
                 </div>
-                <div>
-                    <input style="border: none; outline: none; background-color: white; width: 527px; height: 35px; font-size: large;"
+                <div style="background-color: white; width: 527px; height: 35px; font-size: large;">
+                    <input style="border: none; outline: none; "
                         placeholder="Search Amazon.in" />
                 </div>
                 <div>
@@ -137,8 +183,8 @@
                 </div>
             </div>
         </div>
-        <div id="contentbar">bar</div>
-        <div id="boby">Body</div>
+        <!-- <div id="contentbar">bar</div>
+        <div id="boby">Body</div> -->
     </div>
 </body>
 
