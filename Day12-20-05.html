@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra.com</title>
+    <style>
+        * {
+            font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        #screen{
+            width: 100%;
+            /* border: 2px solid yellow; */
+        }
+
+        #body{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        #body>div:nth-child(1){
+            width: 18%;
+            /* border: 1px solid black; */
+            line-height: 25px;
+        }
+        #body>div:nth-child(1)>div{
+            border-bottom: 1px solid gray;
+            margin-left: 20px;
+          
+        }
+
+        #body>div:nth-child(1)>div>h4{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        #product{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        #product>div{
+            width: 18%;
+            height: 370px;
+            margin-bottom: 20px;
+        }
+
+        #product>div>img{
+            width: 100%;
+            height: 70%;
+        }
+        #product>div>h4,p{
+            margin-left: 20px;
+            margin-bottom: 4px;
+        }
+        #product>div>h4:nth-child(4){
+            color: rgb(29, 128, 14);
+        }
+
+        #product>div>p:nth-child(3){
+            color:blue;
+        }
+        #product>div:hover{
+            border: 1px solid black;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="navbar"></div>
+        <div id="body">
+            <div>
+                <div>
+                    <h4>CATEGORIES</h4>
+                    <input type="checkbox">
+                    <lable>Lipstick</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Nail Polish</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Perfume</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Face Wash</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Shampoo</lable>
+                </div>
+                <div>
+                    <h4>BRAND</h4>
+                    <input type="checkbox">
+                    <lable>LOreal</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Lakme</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Maybelline</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Pierre Cardin Paris</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>FACES CANADA</lable>
+                </div>
+                <div>
+                    <h4>PRICE</h4>
+                    <input type="checkbox">
+                    <lable>Rs. 87 to Rs. 1403</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Rs. 1403 to Rs. 2719</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Rs. 2719 to Rs. 4035</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Rs. 4035 to Rs. 5351</lable><br/>
+                    <input type="checkbox">                    
+                    <lable>Rs. 4035 to Rs. 5351</lable>
+                 
+                </div>
+            </div>
+            <div id="product">
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15853718/2022/7/18/3302ffaf-5ebe-492f-9436-4f92bf5488401658122011957-Minimalist-SPF-50-PA-Multi-Vitamin-Sunscreen-670165812201146-1.jpg"/>
+                    <h4>Minimalist</h4>
+                    <p>Sunscreen</p>
+                    <h4>Rs. 379</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2505573/2022/9/23/3fc97f06-4fb9-4e92-a763-0652ad7ef5da1663919568797-Parachute-Women-Advansed-Deep-Nourish-Body-Lotion-with-Pure--1.jpg"/>
+                    <h4>Parachute</h4>
+                    <p>Body Lotion</p>
+                    <h4>Rs. 167</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17857398/2022/5/12/a0175dd6-dda6-4a0e-a90c-8c9a18217a611652342256019BellaVitaOrganicLuxurySetof4Perfume-20mleach1.jpg"/>
+                    <h4>Bella Vita Organic</h4>
+                    <p>Perfume</p>
+                    <h4>Rs. 549</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14470534/2023/3/10/25397b8d-107d-49e1-b1ed-b1ef1c5fae1f1678439894905PondsInstantSpotCoverageVitaminEnrichedSPF30BBCream30g-Ivory1.jpg"/>
+                    <h4>Ponds</h4>
+                    <p>BB Cream</p>
+                    <h4>Rs. 156</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7552207/2021/8/11/16b1fca4-d52b-4cf5-83a7-f9852817e79c1628671501364LakmePeachMilkSoftCreme150g1.jpg"/>
+                    <h4>Lakme</h4>
+                    <p>Soft Creme</p>
+                    <h4>Rs. 140</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6837541/2022/1/27/86827c8b-4d8b-4adf-b70e-c9419c9b27ed1643280119188TRESemmeWomenKeratinSmoothShampoo185ml1.jpg"/>
+                    <h4>TRESeme</h4>
+                    <p>Shampoo</p>
+                    <h4>Rs. 146</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9083491/2023/4/14/3c8c84ce-cc09-47f8-a6a6-edd06e7b59461681464992866-Lotus-Herbals-Sustainable-YOUTHRX-Anti-Ageing-Transforming-C-1.jpg"/>
+                    <h4>Lotus</h4>
+                    <p>Anti-ageing Cream</p>
+                    <h4>Rs. 116</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17723176/2022/5/19/a8a6cee6-4242-4f71-8936-7cf8b705d48e1652955591039MARSSetof3MatteLipsticksBox-Browns041.jpg"/>
+                    <h4>Mars</h4>
+                    <p>Lipstick</p>
+                    <h4>Rs. 379</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15754554/2023/4/25/12b8c6e5-a3f8-4393-9a4c-65187bb2ef011682413573715MyGlammPOPxoMakeupCollectionChipResistantHighGlossMiniNailKi1.jpg"/>
+                    <h4>MyGlamm</h4>
+                    <p>Nail Polish</p>
+                    <h4>Rs. 161</h4>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/20117512/2022/9/26/4380663c-dea7-49f6-a699-2379474746f31664191610317MCaffeineCoffeeBodyShimmerforIlluminizedSkinOil-FreeHydratio1.jpg"/>
+                    <h4>MCaffeine</h4>
+                    <p>Body Shimmer</p>
+                    <h4>Rs. 399</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
