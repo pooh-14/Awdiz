@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        #body {
+            width: 100%;
+            /* border: 2px solid red; */
+        }
+
+        #body>div:nth-child(1) {
+            /* border: 2px solid blue; */
+            margin: 25px;
+        }
+
+        #body>div:nth-child(1)>p {
+            font-size: 13px;
+        }
+
+        #proinfo {
+            margin: 25px;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #proinfo>div:nth-child(1) {
+            width: 57%;
+            /* height: 300px; */
+            /* border: 2px solid aqua; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        #proinfo>div:nth-child(1)>div {
+            width: 49%;
+            height: 500px;
+            /* border: 2px solid greenyellow; */
+            margin-bottom: 12px;
+        }
+
+        #proinfo>div:nth-child(1)>div>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #proinfo>div:nth-child(2) {
+            width: 40%;
+            height: 300px;
+            /* border: 5px solid black */
+        }
+
+        #right>div {
+            border-bottom: 1px solid #a1a3ab;
+        }
+
+        #right>div:nth-child(1)>p {
+            margin-bottom: 15px;
+            color: #a1a3ab;
+        }
+
+        #right>div:nth-child(2)>div:nth-child(4) {
+            display: flex;
+        }
+
+        #right>div:nth-child(2)>div:nth-child(4)>div {
+            height: 50px;
+            width: 50px;
+            border: 1px solid black;
+            margin-left: 10px;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        #right>div:nth-child(2)>div:nth-child(4)>div:hover {
+            border: 1px solid rgb(242, 64, 209);
+        }
+
+        #right>div:nth-child(2)>div:nth-child(4)>div>p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        #flex {
+            display: flex;
+            justify-content: space-around;
+            border-bottom: #a1a3ab;
+            margin-bottom: 10px;
+        }
+
+        #flex>div:nth-child(1)>input {
+            border: 1px solid pink;
+            background-color: rgb(253, 10, 152);
+            color: white;
+            width: 250px;
+            height: 50px;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        #flex>div:nth-child(2)>input {
+            border: 1px solid rgb(172, 171, 171);
+            background-color: white;
+            width: 250px;
+            height: 50px;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        #delivery>div:nth-child(2)>input {
+            width: 250px;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+        #delivery{
+            line-height: 28px;
+        }
+
+        #details{
+            line-height: 28px;
+        }
+        
+        #speci{
+            width: 570px;
+            height: 300px;
+            /* border:1px solid red; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-bottom: #72747e;
+        }
+
+        #speci>div:nth-child(1){
+            width: 275px;
+            height:62px;
+            /* border:1px solid grey; */
+            
+        }
+        #speci>div:nth-child(2){
+            width: 275px;
+            height:62px;
+            /* border:1px solid grey; */
+        }
+        #speci>div:nth-child(3){
+            width: 275px;
+            height:62px;
+            /* border:1px solid grey; */
+        }
+        #speci>div:nth-child(4){
+            width: 275px;
+            height:62px;
+            /* border:1px solid grey; */
+        }
+        #speci>div:nth-child(5){
+            width: 275px;
+            height:62px;
+            /* border:1px solid grey; */
+        }
+        #speci>div:nth-child(6){
+            width: 275px;
+            height:62px;
+            /* border:1px solid grey; */
+        }
+        #speci>div:nth-child(7){
+            width: 275px;
+            height:62px;
+            /* border:1px solid grey; */
+        }
+        #speci>div:nth-child(8){
+            width: 275px;
+            height:62px;
+            /* border:1px solid grey; */
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <div id="body">
+        <div>
+            <p> Home / Clothing / Women Clothing / Dresses / <b>Berrylush Dresses > More By Berrylush</b></p>
+        </div>
+        <div id="proinfo">
+            <div>
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17220574/2022/3/2/cadcf77d-3f44-4311-ac7d-3fb0c716a6de1646212529498-Berrylush-Women-White-Solid-Puff-Sleeve-Lace-Up-Front-Schiff-1.jpg" />
+                </div>
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17220574/2022/3/2/8b8e97ff-1370-45ef-9117-bd66831fa6c31646212529479-Berrylush-Women-White-Solid-Puff-Sleeve-Lace-Up-Front-Schiff-2.jpg" />
+                </div>
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17220574/2022/3/2/cd050d76-74ae-4d7a-93b8-b6bafb0566a91646212529459-Berrylush-Women-White-Solid-Puff-Sleeve-Lace-Up-Front-Schiff-3.jpg" />
+                </div>
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17220574/2022/3/2/58fb3930-22f6-422a-90df-e38326ff3ab41646212529439-Berrylush-Women-White-Solid-Puff-Sleeve-Lace-Up-Front-Schiff-4.jpg" />
+                </div>
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17220574/2022/3/2/d7b9a1e6-00f6-49a5-8362-3be3aebf83481646212529420-Berrylush-Women-White-Solid-Puff-Sleeve-Lace-Up-Front-Schiff-5.jpg" />
+                </div>
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17220574/2022/3/2/45c91d51-0f8c-4a10-a420-f0cf82ffe9f81646212529398-Berrylush-Women-White-Solid-Puff-Sleeve-Lace-Up-Front-Schiff-6.jpg" />
+                </div>
+            </div>
+
+
+            <div id="right">
+                <div>
+                    <h2>Berrylush</h2>
+                    <p>Women Classic White Self-Design Corset Dress</p>
+                </div>
+                <div>
+                    <h2>₹1614 MRP 1899(15% OFF)</h2>
+                    <p>inclusive of all taxes</p>
+                    <h4> SELECT SIZESIZE CHART ></h4>
+                    <div>
+                        <div>
+                            <p>xs</p>
+                        </div>
+                        <div>
+                            <p>s</p>
+                        </div>
+                        <div>
+                            <p>m</p>
+                        </div>
+                        <div>
+                            <p>l</p>
+                        </div>
+                        <div>
+                            <p>xl</p>
+                        </div>
+                    </div>
+                    <div id=flex>
+                        <div>
+                            <input type="submit" value="ADD TO BAG" />
+                        </div>
+                        <div>
+                            <input type="submit" value="WISHLIST" />
+                        </div>
+                    </div>
+                </div>
+                <div id="delivery">
+                    <div>
+                        <h4><B>DELIVERY OPTIONS</B></h4>
+                    </div>
+                    <div>
+                        <input placeholder="Enter pincode" />
+                    </div>
+                    <div>
+                        <p style="font-size: smaller; margin-bottom: 20px;">Please enter PIN code to check delivery time & Pay on Delivery Availability</p>
+                        <p>100% Original Products</p>
+                        <p> Pay on delivery might be available</p>
+                        <p>Easy 14 days returns and exchanges</p>
+                        <p>  Try & Buy might be available</p>
+
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <h4><B>BEST OFFERS</B></h4>
+                        <p><b>Best Price:Rs. 1374</b></p>
+                        <ul>
+                            <li>Applicable on: Purchase of 2 or more items</li>
+                            <li>Coupon code: FWD15</li>
+                            <li>Coupon Discount: 15% off (Your total saving: Rs. 528)</li>
+                        </ul>
+                        <p style="color: rgb(243, 4, 167);"><b>View Eligible Products</b></p>
+                        <p><b>Up To Rs 500 Cashback on CRED pay transactions</b></p>
+                        <ul>
+                            <li>Min Spend Rs 1,000. Available only on Android Devices.</li>
+                        </ul>
+                        <p style="color: rgb(243, 4, 167);"><b>Terms and Conditions</b></p>
+                        <p><b>EMI option available</b></p>
+                        <ul>
+                            <li>EMI starting from Rs.76/month</li>
+                        </ul>
+                        <p style="color: rgb(243, 4, 167);"><b>View Plan</b></p>
+                    </div>
+                </div>
+                <div>
+                    <div id="details">
+                        <h4><B>PRODUCT DETAILS</B></h4>
+                        <p>Dress up or down with this chic dress. Tailored with an alluring self-design print and sweetheart neck, this dress beautifully stands apart.</p>
+                        <p>Classic white shade</p>
+                        <p>Chic self-design print</p>
+                        <p> Sweetheart neck</p>
+                        <p>  Short puff sleeves</p>
+                        <p>  Viscose rayon, machine wash</p>
+                        <p style="margin-top: 15px;"><b>Trend Alert</b></p>
+                        <p>A corset is a tight-fitting piece of undergarment or clothing that provides compression around your midsection. It offers support as well as a flattering silhouette.</p>
+                        <p style="margin-top: 15px;"><b>Size & Fit</b></p>
+                        <p>The model (height 5'8) is wearing a size S</p>
+                        <p style="margin-top: 15px;"><b>Material & Care</b></p>
+                        <p>Visose Rayon</p>
+                        <p>Machine Wash</p>
+                        <p><b>Specifications</b></p>
+                        <div id="speci">
+                            <div>
+                                <p style="font-size: 12px;color: grey;">Shape</p>
+                                <p>Bodycon</p>
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;color: grey;">Neck</p>
+                                <p>Sweetheart Neck</p>
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;color: grey;">Length</p>
+                                <p>Mini</p>
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;color: grey;">Print or Pattern</p>
+                                <p>Self Design</p>
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;color: grey;">Sleeve Length</p>
+                                <p>Short Sleeves</p>
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;color: grey;">Sleeve Styling</p>
+                                <p>Puff Sleeves</p>
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;color: grey;">Ocassion</p>
+                                <p>Casual</p>
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;color: grey;">Knit or Woven</p>
+                                <p>Woven</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
