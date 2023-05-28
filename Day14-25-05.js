@@ -14,4 +14,5 @@ console.log(booleanValue)
 console.log(typeof (booleanValue))
 var booleanValue = false;
 console.log(booleanValue)
+
 console.log(typeof (booleanValue))
