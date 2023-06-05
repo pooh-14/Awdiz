@@ -15,14 +15,14 @@
 //     }
 // }
 
-ASSIGNMENT DAY 19
+// ASSIGNMENT DAY 19
 
 var target = 25;
 var array = [ 2,3,5,5,32,54,23,12,45,23,43,1,34,65,1,54,6,33,4,9,7 ];
-for(i=0; i<array.length;i++){
-    for(j=i+1; j<array.length;j++){
-        for(k=j+1;k<array.length;k++){
-            for(l=k+1;l<array.length;l++){
+for(i=0; i<array.length-3;i++){
+    for(j=i+1; j<array.length-2;j++){
+        for(k=j+1;k<array.length-1;k++){
+            for(l=k+1;l<array.length;l++){5
                 if(array[i]+array[j]+array[k]+array[l]==target){
                     console.log(array[i],array[j],array[k],array[l], "target achieved")
                 }
